@@ -529,7 +529,10 @@ nav .content .links {
 
 @media screen and (max-width:600px) {
   .columns {
-    height: 300px;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
   }
 }
 
@@ -594,6 +597,13 @@ ol.a {
 
 @media screen and (max-width: 600px) {
   .dcolumn {
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     width: 100%;
   }
 }
