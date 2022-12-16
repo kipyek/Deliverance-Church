@@ -191,6 +191,57 @@ nav .content .links {
   display: none;
 }
 
+
+/* Service */
+.mainservice h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mainservice p {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.chcolumns {
+  flex: 50%;
+  padding: 5px;
+  background-color: #EAE8EB;
+  margin-bottom: 20px;
+
+}
+
+.chrows {
+  display: flex;
+}
+
+.chcolumns h2 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .chrows {
+    display: block;
+  }
+
+  .chcolumns h2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .chcolumns {
+    flex: 50%;
+    padding: 5px;
+    background-color: #EAE8EB;
+    margin-bottom: 0px;
+
+  }
+}
+
+
 /* Dropdown Menu code start */
 .content .links ul {
   position: absolute;
@@ -468,7 +519,6 @@ nav .content .links {
   width: 50%;
   padding: 10px;
   height: 200px;
-
 }
 
 .rows:after {
