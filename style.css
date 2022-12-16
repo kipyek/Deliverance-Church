@@ -48,7 +48,7 @@ nav .content {
 }
 
 nav .content .links {
-  margin-left: 80px;
+  margin-left: 380px;
   display: flex;
 }
 
@@ -440,14 +440,6 @@ nav .content .links {
 
 
 
-/* Daughters */
-.daugters-section {
-  padding-top: 200px;
-  padding-bottom: 150px;
-  text-align: center;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/image13.jpg);
-  color: white;
-}
 
 /*History */
 .column {
@@ -506,12 +498,22 @@ nav .content .links {
 }
 
 
-/* Daughter */
+/* Daughters */
+.daugters-section {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/image13.jpg);
+  color: white;
+}
+
 .dcolumn {
   float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
+  width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  height: 200px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -533,6 +535,11 @@ nav .content .links {
 
 ol.a {
   list-style-type: lower-alpha;
+}
+
+.intro {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 600px) {
